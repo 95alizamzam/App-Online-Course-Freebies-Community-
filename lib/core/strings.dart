@@ -1,1 +1,1 @@
-const String appName = 'advanced_ui_project1';
+const String appName = 'App Online Course Freebies (Community)';

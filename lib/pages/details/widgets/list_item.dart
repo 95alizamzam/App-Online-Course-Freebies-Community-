@@ -24,15 +24,9 @@ class ListItemWidget extends StatelessWidget {
               borderRadius: BorderRadius.circular(20.r),
               image: DecorationImage(
                 image: AssetImage(model.image),
-                fit: BoxFit.fitWidth,
-                scale: 2,
+                fit: BoxFit.cover,
               ),
             ),
-            // child: Image.asset(
-            //  model.image,
-            //   width: 80.w,
-            //   fit: BoxFit.fitWidth,
-            // ),
           ),
           SizedBox(width: 20.w),
           Column(
